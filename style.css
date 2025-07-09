@@ -1,37 +1,25 @@
-body{
-    background-color: silver;
-    background-image: url(paisagem-natural-og.webp);
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'ubuntu'; 
 }
-h1{
-    color:blue;
-    background-color: aqua;
+header ul{
+    background-color: #ff6633;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    gap: 20px;
+
 }
-h2{
-    color:aquamarine;
-    background-color: blueviolet;
-}
-h3{
-    color:azure;
-    background-color: beige;
-}
-h4{
-    color:bisque;
-    background-color: blanchedalmond;
-}
-h5{
-    color: brown;
-    background-color: blueviolet;
-}
-h6{
-    color: black;
-    background-color: aliceblue;
-}
-.lagarta{
-    height:400px;
-    width:400px;
-    border-radius: 50%;
-    border: 5px solid silver;
-}
+ header li{
+    list-style: none;
+    display: flex;
+ }
+ header li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+ }
+ header li a:hover{
+    text-decoration: underline;
+ }
