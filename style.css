@@ -23,3 +23,84 @@ header ul{
  header li a:hover{
     text-decoration: underline;
  }
+ .verde{
+   background-color: #008a28;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+ }
+ .verde img{
+   height: 63px;
+ }
+ .verde input{
+   padding: 15px 100px 15px 10px;
+   border: none;
+   border-radius: 5px 0px 0px 5px;
+   outline: none;
+ }
+ .buscar{
+   display: flex;
+ }
+ .buscar i{
+   background-color: #ff6633;
+   padding: 15px;
+   border-radius: 0px 5px 5px 0px;
+ }
+ .store{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+
+ }
+ .store i{
+   font-size: 24px;
+ }
+ .paragrafo{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+ }
+ .paragrafo p{
+   font-size: 13px;
+   color: #ffff;
+ }
+ .app{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+ }
+ .app i{
+   border: 1px solid white;
+   padding: 10px;
+   border-radius: 8px;
+   font size: 24px;
+   
+ }
+ .apple{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+ }
+ .apple p{
+   font-size: 12px;
+   color: white;
+ }
+ .login{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+ }
+ .loginCadastro{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+ }
+ .login i{
+   font-size: 24px;
+ }
+ .loginCadastro p{
+   font-size: 12px;
+   color: white;
+
+ }
