@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
 }
+body{
+  background-color: #f3f5f8;
+}
 
 header ul{
   background-color: #ff6633;
@@ -133,7 +136,7 @@ main{
 #laranja{
   color: #ff6633;
 }
-a:hover{
+.categorias a:hover{
   color: #ff6633;
   background-color: #f9f9f9;
  border-radius: 8px;
@@ -235,13 +238,13 @@ margin-top: 20px;}
 .itens img{
   width: 193px;
 }
-.Cervejas{
-  margin-top: 20px;
-  display: flex;
-}
+
 .view{
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
 }
 .view h3{
   color: #008a28;
@@ -251,13 +254,59 @@ margin-top: 20px;}
   color: #ff6633;
   padding: 10px 36px;
   text-decoration: none;
-  border-radius: 8px;
-}   
-.itens-Cervejas{
-  height: 150px;
+  border-radius: 8px;}
+
+.cervejas{
+  margin-top: 20px;
   display: flex;
+  gap: 10px;
+}
+ 
+.itens-Cervejas{
+  display: flex;
+  padding: 20px;
+  gap: 15px;
   flex-direction: column;
+  background-color: #ffffff;
 }
 .itens-Cervejas img{
-  height: 150px;
+  height: 180px;
+}
+.itens-Cervejas p{
+  font-size: 13px;
+  font-weight: 400px;
+}
+.price{
+  color: #000000;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.discount{
+  background-color: #36bb69;
+  padding: 2px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 7px;
+  font-size: 12px;
+}
+.unidades{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.unidades P{
+  font-size: 10px;
+}
+.itens-Cervejas a{
+  background-color: #ff6633;
+  padding: 10PX;
+  color: white;
+  text-decoration: NONE;
+  border-radius: 8px;
+  text-align: center;
+}
+.valores{
+  display: flex;
+  gap: 5px;
 }
