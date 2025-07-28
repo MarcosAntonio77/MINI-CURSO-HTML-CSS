@@ -415,13 +415,13 @@ border-radius: 8px;
   justify-content: space-between;
   margin-top: 20px;
 }
-.visa{
+.visa,.aplication,.network{
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: flex-start;
 }
-.imgcartao .storeapple{
+.imgCards, .storeapple{
   gap: 10px;
   display:flex ;
 }
@@ -432,5 +432,10 @@ border-radius: 8px;
 .storeapple img{
   height: 40px;
    width: 120px;
-   gap: ;
 }
+.imgCards img{
+  width: 32px;
+  height: 32px;
+}
+
+
