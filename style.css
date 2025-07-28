@@ -310,3 +310,127 @@ margin-top: 20px;}
   display: flex;
   gap: 5px;
 }
+footer{
+  margin-top: 40px;
+}
+.cards{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+
+}
+.cards img{
+width: 190px;
+height: 250px;
+border-radius: 8px;
+}
+.promotion{
+  background-color: #ff6633;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+}
+.sms{
+  align-items: center;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+.paragraph p{
+  color: white;
+  display: flex;
+  align-items: flex-start;
+}
+.new{
+  font-size: 18px;
+  font-weight: bold;
+}
+.private{
+  font-size: 10px;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: flex-start;
+  gap: 5px;
+}
+.data input{
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+.check{
+  color: white;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-align: center;
+}
+.state select{
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.promotion button{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #008a28;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.promotion button:hover{
+  background-color: #36bb69;
+}
+.services{ 
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+.listas ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.listas a{
+  text-decoration: none;
+  color: gray;
+}
+.listas a:hover{
+  text-decoration: underline;
+}
+.payment{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.visa{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+.imgcartao .storeapple{
+  gap: 10px;
+  display:flex ;
+}
+.imgcartao img{
+  height: 23px;
+  width: 30px;
+}
+.storeapple img{
+  height: 40px;
+   width: 120px;
+   gap: ;
+}
